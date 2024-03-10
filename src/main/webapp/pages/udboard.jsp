@@ -32,6 +32,31 @@ a {
 	border:4px solid #13ab3e;
 	cursor: pointer;
 }
+
+.col-3{
+height: 100vh !important;
+}
+
+@media only screen and (max-width: 600px) {
+.col-3{
+width:100%;
+height:auto !important;
+margin-bottom:10px;
+}
+.col-9{
+width:100%;
+
+}
+
+.d-flex{
+flex-direction: column;
+
+}
+
+
+
+}
+
 </style>
 <script>
     function redirectToProblemStatus(probId) {
@@ -45,8 +70,8 @@ a {
 	<div id="header">
 		<%@ include file="nav.jsp"%>
 	</div>
-	<div class="row mt-1">
-		<div class="col-3  compliants card border-light list-group vh-100 border-1">
+	<div class="row d-flex mt-1">
+		<div class="col-3 compliants card border-light list-group border-1">
 			<h2 class="text-center card-header">Your complaints</h2>
 			<!-- Iterate over the list of problems and display each one -->
 			<%

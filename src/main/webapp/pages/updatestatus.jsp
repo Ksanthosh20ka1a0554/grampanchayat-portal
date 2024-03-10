@@ -30,7 +30,7 @@
 	<div class="card m-auto mt-5 border-1 shadow-sm text-center" style="max-width: 25rem;background-color: #d8f5a2;">
 		<div class="card-title h2">Update status</div>
 		<div class="card-body">
-			<h5 class="card-title">${problem.getProbid()} ${problem.getProbtitle()}</h5>
+			<h5 class="card-title">${problem.getProbtitle()}</h5>
 			<p class="card-text">${problem.getProbdes()}</p>
 			<h5 class="card-text text-danger">${problem.getProbstatus()}</h5>
 		</div>

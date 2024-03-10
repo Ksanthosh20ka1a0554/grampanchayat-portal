@@ -5,7 +5,7 @@
     <img src="${pageContext.request.contextPath}/images/Emblem_of_Andhra_Pradesh.svg" width="30" height="30" class="d-inline-block align-top" alt="">
     <span class="font-weight-bold h4">Gram Panchayat</span>
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">

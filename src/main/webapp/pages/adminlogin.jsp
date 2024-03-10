@@ -99,7 +99,7 @@
 				<div class="d-flex justify-content-center form_container">
 					
 					<form action="/admin/validateadmin" method="post">
-					<h3 class="text-center mb-5">Admin login</h3>
+					<h3 class="text-center mb-4" style="color:#13ab3e;">Admin login</h3>
 						<div class="input-group mb-3">
 							<div class="input-group-append">
 								<span class="input-group-text"><i class="fas fa-lg fa-envelope"></i></span>
