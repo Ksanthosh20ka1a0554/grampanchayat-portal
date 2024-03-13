@@ -1,11 +1,11 @@
-# Use a base image with Java and Alpine Linux
-FROM adoptopenjdk/openjdk11:alpine-slim
+FROM openjdk:17
 
-# Set the working directory in the container
 WORKDIR /app
 
-# Copy the packaged Spring Boot application JAR file into the container
-COPY target/grampanchayat-portal-0.0.1.jar /app
+COPY ./target/grampanchayat-portal-0.0.1.jar /app
+COPY src/main/webapp/WEB-INF/pages  /app
+EXPOSE 8080
 
-# Command to run the Spring Boot application
 CMD ["java", "-jar", "grampanchayat-portal-0.0.1.jar"]
+
+

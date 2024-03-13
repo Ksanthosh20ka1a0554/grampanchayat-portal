@@ -33,6 +33,16 @@
 		    <optional>true</optional>
 		</dependency>
 		<dependency>
+  <groupId>org.apache.tomcat.embed</groupId>
+  <artifactId>tomcat-embed-jasper</artifactId>
+</dependency>
+<!-- Need this to compile JSP -->
+<dependency>
+  <groupId>org.eclipse.jdt.core.compiler</groupId>
+  <artifactId>ecj</artifactId>
+  <version>4.6.1</version>
+</dependency>
+		<dependency>
 		    <groupId>javax.servlet</groupId>
 		    <artifactId>jstl</artifactId>
 		    <version>1.2</version>
@@ -40,8 +50,7 @@
 		<dependency>
     <groupId>org.postgresql</groupId>
     <artifactId>postgresql</artifactId>
-    <version>42.7.2</version>
-</dependency>
+    </dependency>
 
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>
