@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d8f5a2;">
   <a class="navbar-brand" href="#">
-    <img src="Emblem_of_Andhra_Pradesh.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Emblem_of_Andhra_Pradesh.svg/1200px-Emblem_of_Andhra_Pradesh.svg.png" width="30" height="30" class="d-inline-block align-top" alt="">
     <span class="font-weight-bold h4">Gram Panchayat</span>
   </a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

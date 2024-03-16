@@ -129,7 +129,7 @@ flex-direction: column;
 									<div class="form-group">
 										<label class="sr-only" for="message">post</label>
 										<textarea name="probdes" class="form-control" id="message"
-											rows="3" placeholder="Explian your problem..."></textarea>
+											rows="3" placeholder="Explain your problem..."></textarea>
 									</div>
 
 								</div>
