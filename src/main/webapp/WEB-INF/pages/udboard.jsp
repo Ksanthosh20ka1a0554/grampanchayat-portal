@@ -37,7 +37,7 @@ a {
 height: 100vh !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width:480px) {
 .col-3{
 width:100%;
 height:auto !important;

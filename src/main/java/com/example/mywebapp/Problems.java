@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 public class Problems {
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int probid;
 	
 	private String userid;

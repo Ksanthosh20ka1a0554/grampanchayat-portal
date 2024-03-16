@@ -14,10 +14,10 @@
         <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="/admin">Admin</a>
+        <a class="nav-link" href="/admin">Admin login</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="/login">User</a>
+        <a class="nav-link" href="/login">User login</a>
       </li>
     </ul>
     <%if (session.getAttribute("userName")!=null){ %>

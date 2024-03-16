@@ -45,7 +45,7 @@
 		}
 		.brand_logo {
 			height: 150px;
-			width: 120px;
+			width: 140px;
 			border: 2px solid white;
 			background: #ffffff;
 			border-radius:50%;
@@ -93,7 +93,7 @@
 			<div class="user_card">
 				<div class="d-flex justify-content-center">
 					<div class="brand_logo_container">
-						<img src="Emblem_of_Andhra_Pradesh.svg" class="brand_logo" alt="Logo">
+						<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Emblem_of_Andhra_Pradesh.svg/1200px-Emblem_of_Andhra_Pradesh.svg.png" class="brand_logo" alt="Logo">
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
