@@ -19,7 +19,7 @@ jobs:
         docker pull santhosh9515/grampanchayat:latest
         
         # Run the Docker container
-        docker run -d --name validation-container santhosh9515/grampanchayat:5
+        docker run -d --name validation-container santhosh9515/grampanchayat:latest
 
     - name: Send POST Request to /validateuser
       run: |
