@@ -16,10 +16,10 @@ jobs:
         curl -fsSL https://get.docker.com -o get-docker.sh
         sh get-docker.sh
         # Pull the Docker image
-        docker pull santhosh9515/grampanchayat:latest
+        sudo docker pull santhosh9515/grampanchayat
         
         # Run the Docker container
-        docker run -d --name validation-container santhosh9515/grampanchayat:latest
+        sudo docker run -d --name validation-container santhosh9515/grampanchayat
 
     - name: Send POST Request to /validateuser
       run: |
